@@ -1,3 +1,5 @@
+// created by: Shila Rani Das (300969886) 30 Mar 2019
+// This file is UI for sending message to database.
 import { Component, OnInit } from '@angular/core';
 import { ContactmeListService } from 'src/app/services/contactme-list.service';
 import { FlashMessagesService } from 'angular2-flash-messages';

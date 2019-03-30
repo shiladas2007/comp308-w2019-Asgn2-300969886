@@ -1,3 +1,6 @@
+// created by Professor
+// Modifed by Shila Rani Das (300969886) 30 Mar 2019
+// this file is for registering all module
 // Modules
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -12,7 +15,7 @@ import { FooterComponent } from './partials/footer/footer.component';
 import { BasePageComponent } from './partials/base-page/base-page.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
-import { ProductsComponent } from './pages/products/products.component';
+
 import { ServicesComponent } from './pages/services/services.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
@@ -46,7 +49,7 @@ export function jwtTokenGetter() {
     BasePageComponent,
     HomeComponent,
     AboutComponent,
-    ProductsComponent,
+
     ServicesComponent,
     ContactComponent,
     PageNotFoundComponent,

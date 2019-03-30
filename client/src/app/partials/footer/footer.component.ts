@@ -1,3 +1,7 @@
+// Created by: professor
+
+// this file footer component which is displayed in every page
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({

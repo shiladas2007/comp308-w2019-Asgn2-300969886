@@ -1,3 +1,6 @@
+// Created by: professor
+
+// this file header component which is displayed in every page
 import { Component, OnInit } from '@angular/core';
 import { FlashMessagesService } from 'angular2-flash-messages';
 import { AuthService } from 'src/app/services/auth.service';

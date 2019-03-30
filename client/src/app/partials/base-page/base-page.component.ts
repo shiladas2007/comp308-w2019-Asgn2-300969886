@@ -1,3 +1,7 @@
+// Created by: professor
+
+// this file base component which is displayed in home page
+
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 

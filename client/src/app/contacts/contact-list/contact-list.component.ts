@@ -1,3 +1,5 @@
+// created by: professor
+// This file is UI for listing my contacts from database.
 import { Component, OnInit } from '@angular/core';
 import { ContactListService } from 'src/app/services/contact-list.service';
 import { FlashMessagesService } from 'angular2-flash-messages';

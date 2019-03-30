@@ -1,3 +1,6 @@
+// Created by: professor
+// this file handle CRUD for my contact list from/to the API
+
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders} from '@angular/common/http';
 import { Observable } from 'rxjs';

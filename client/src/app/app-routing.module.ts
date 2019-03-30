@@ -1,3 +1,6 @@
+// created by Professor
+// Modifed by Shila Rani Das (300969886) 30 Mar 2019
+// this file is for routing all component
 // Modules
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -5,7 +8,7 @@ import { Routes, RouterModule } from '@angular/router';
 // Components
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
-import { ProductsComponent } from './pages/products/products.component';
+
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactMeComponent } from './pages/contact-me/contact-me.component';
 import { ServicesComponent } from './pages/services/services.component';

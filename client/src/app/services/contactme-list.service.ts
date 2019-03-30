@@ -1,3 +1,6 @@
+
+// Created by: Shila Rani Das (300969886) 30 Mar 2019
+// this file read/ send message from others from/to the API
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders} from '@angular/common/http';
 import { Observable } from 'rxjs';

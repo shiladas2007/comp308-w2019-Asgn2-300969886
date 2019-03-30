@@ -1,3 +1,6 @@
+// created by Professor
+// Modifed by Shila Rani Das (300969886) 30 Mar 2019
+// this file is the initial component for this app
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'COMP308-W2019-Lesson8b';
+  title = 'My MEAN portfolio';
 }

@@ -1,3 +1,6 @@
+// Created by: professor
+// this file handle login/logout/ register operation from/to the API
+
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders} from '@angular/common/http';
 import { Observable } from 'rxjs';

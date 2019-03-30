@@ -1,3 +1,6 @@
+// Created by: professor
+
+// this file is my contact list component
 import { AuthService } from './../../services/auth.service';
 import { Component, OnInit } from '@angular/core';
 import { BasePageComponent } from 'src/app/partials/base-page/base-page.component';

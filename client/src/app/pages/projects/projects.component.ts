@@ -1,3 +1,6 @@
+// Created by: professor
+
+// this file is my project component
 import { Component, OnInit } from '@angular/core';
 
 @Component({

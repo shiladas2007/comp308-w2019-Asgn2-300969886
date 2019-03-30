@@ -1,3 +1,7 @@
+// Created by: professor
+
+// this file is for gurding the secure section
+
 import { Injectable } from '@angular/core';
 import { CanActivate, ActivatedRouteSnapshot, Router } from '@angular/router';
 
