@@ -1,3 +1,5 @@
+/*Created by: Shila Rani Das(300969886) 30 Mar 2019  
+This file is controlling the receiving message  from others and viewing message*/
 let express = require('express');
 let router = express.Router();
 let jwt = require('jsonwebtoken');

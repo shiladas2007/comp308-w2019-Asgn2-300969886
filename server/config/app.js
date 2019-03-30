@@ -1,3 +1,6 @@
+//app.js
+//Author Name: Professor
+//modified by : Shila Rani Das(300969886) 30 mar 2019
 // moddules for node and express
 let createError = require('http-errors');
 let express = require('express');
@@ -33,6 +36,7 @@ mongoDB.once('open', ()=> {
 
 let indexRouter = require('../routes/index');
 let contactRouter = require('../routes/contact');
+//added new route for recording messege from others
 let contactmeRouter = require('../routes/contactme');
 
 
@@ -98,6 +102,7 @@ passport.use(strategy);
 
 app.use('/api', indexRouter);
 app.use('/api/contact-list', passport.authenticate('jwt', {session: false}), contactRouter); 
+//added new route for recording messege from others and viewing those messages
 app.use('/api/contactme-list', contactmeRouter); 
 app.get('*', (req, res) => {
   res.sendfile(path.join(__dirname, '../../public/index.html'));

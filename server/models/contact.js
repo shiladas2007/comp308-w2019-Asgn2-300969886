@@ -1,3 +1,5 @@
+/*Created by: Professor
+This file is model for recorded my contacts list*/
 let mongoose = require('mongoose');
 
 // create a model class

@@ -1,3 +1,5 @@
+/*Created by: Professor 
+This file is model for recording registered user*/
 // require modules for our User Model
 let mongoose = require("mongoose");
 let passportLocalMongoose = require("passport-local-mongoose");
