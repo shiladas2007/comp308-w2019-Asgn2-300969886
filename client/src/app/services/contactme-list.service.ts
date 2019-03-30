@@ -14,7 +14,8 @@ import { User } from '../models/user';
 export class ContactmeListService {
   private user: User;
   private authToken: any = null;
-  private endpoint = 'http://localhost:3000/api/contactme-list/';
+  private endpoint = 'https://comp308-w2019-asgn2-300969886.herokuapp.com/api/contactme-list/';
+  //private endpoint = 'http://localhost:3000/api/contactme-list/';
   private httpOptions = {
     headers: new HttpHeaders({
       'Content-Type': 'application/json',
