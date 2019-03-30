@@ -31,6 +31,8 @@ import { JwtModule, JwtHelperService, JwtInterceptor } from '@auth0/angular-jwt'
 import { AuthGuard } from './guards/auth.guard';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactMeComponent } from './pages/contact-me/contact-me.component';
+import { ContactmeDetailsComponent } from './contactme/contactme-details/contactme-details.component';
+import { ContactmeListComponent } from './contactme/contactme-list/contactme-list.component';
 
 export function jwtTokenGetter() {
   return localStorage.getItem('id_token');
@@ -54,7 +56,9 @@ export function jwtTokenGetter() {
     ContactDetailsComponent,
     ContactDeleteComponent,
     ProjectsComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    ContactmeDetailsComponent,
+    ContactmeListComponent
   ],
   imports: [
     BrowserModule,

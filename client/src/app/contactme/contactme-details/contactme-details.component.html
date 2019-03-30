@@ -1,0 +1,65 @@
+<form class="form" (submit)="onDetailsPageSubmit()">
+  <div class="form-row">
+      <div class="form-group col-md-3">
+          <label for="inputEmail">Email</label>
+
+      </div>
+      <div class="form-group col-md-9">
+      <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email"
+      [(ngModel)]="contactme.email"
+      value="{{ contactme.email }}"
+      required>
+      </div>
+  </div>
+  <div class="form-row">
+      <div class="form-group col-md-2">
+          <label for="FirstNameTextField">First Name</label>
+
+      </div>
+      <div class="form-group col-md-4">
+          <input type="name" class="form-control" id="FirstNameTextField" placeholder="First Name"
+          name="firstName"
+                  [(ngModel)]="contactme.firstName"
+                  value="{{ contactme.firstName }}"
+                  required>
+      </div>
+      <div class="form-group col-md-2">
+          <label for="LastNameTextField">Last Name</label>
+
+      </div>
+      <div class="form-group col-md-4">
+          <input type="name" class="form-control" id="LastNameTextField" placeholder="Last Name"
+          name="lastName"
+          [(ngModel)]="contactme.lastName"
+          value="{{ contactme.lastName }}"
+          required>
+      </div>
+  </div>
+  <div class="form-row">
+      <div class="form-group col-md-3">
+          <label for="inputPhone">Contact Number</label>
+
+      </div>
+      <div class="form-group col-md-9">
+          <input type="phone" class="form-control" id="inputPhone" placeholder="Phone" name="contactNumber"
+          [(ngModel)]="contactme.contactNumber"
+          value="{{ contactme.contactNumber }}"
+          >
+      </div>
+  </div>
+  <div class="form-row">
+      <div class="form-group col-md-3">
+          <label for="inputMessage">Message</label>
+
+      </div>
+      <div class="form-group col-md-9">
+          <textarea  class="form-control" id="inputMessage" placeholder="Message" rows="3"
+          name="message"
+          [(ngModel)]="contactme.message"
+          value="{{ contactme.message }}"
+          required
+          ></textarea>
+      </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Send Message</button>
+</form>

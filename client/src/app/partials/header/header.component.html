@@ -35,14 +35,14 @@
           ><i class="fa fa-lg fa-birthday-cake"></i> Services</a
         >
       </li>
-      <li class="nav-item">
+      <li *ngIf="isLoggedIn()" class="nav-item">
         <a class="nav-link" routerLink="/contact"
-          ><i class="fa fa-lg fa-phone"></i> Contact</a
+          ><i class="fa fa-lg fa-phone"></i> My Contacts</a
         >
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="/contact-me"
-          ><i class="fa fa-lg fa-phone"></i> Contact Me</a
+          ><i class="fa fa-lg fa-envelope"></i> Contact Me</a
         >
       </li>
 
