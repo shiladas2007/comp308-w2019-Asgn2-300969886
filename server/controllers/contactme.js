@@ -33,7 +33,7 @@ module.exports.processAddPage = (req, res, next) => {
             res.end(err);
         }
         else {
-            res.json({success: true, msg: 'Successfully Added New Contact me'});
+            res.json({success: true, msg: 'Successfully recorded your message'});
         }
     });
 }

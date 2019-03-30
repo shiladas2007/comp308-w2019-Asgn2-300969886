@@ -28,7 +28,7 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent, data: {title: 'Contact'}},
   {path: 'contact-me', component: ContactMeComponent, data: {title: 'Contact Me'}},
   {path: 'contact-me-details', component: ContactmeDetailsComponent, data: {title: 'Contact Me Details'}},
-  {path: 'contactme/contactme-list', component: ContactmeListComponent, data: {title: 'Contact Me Lists'}},
+  {path: 'contactme/contactme-list', component: ContactmeListComponent, data: {title: 'Contact Me Lists'}, canActivate: [AuthGuard]},
 
   {path: 'contact/contact-list', component: ContactListComponent, data: {title: 'Contact List'}, canActivate: [AuthGuard]},
   {path: 'contact/contact-list/add', component: ContactDetailsComponent, data: {title: 'Add Contact'}, canActivate: [AuthGuard]},

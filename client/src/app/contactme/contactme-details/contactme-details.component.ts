@@ -27,10 +27,10 @@ export class ContactmeDetailsComponent implements OnInit {
       this.contactmeListService.addContactme(this.contactme).subscribe(data => {
         if (data.success) {
           this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
-          this.router.navigate(['/contactme/contactme-list']);
+          // this.router.navigate(['/contactme/contactme-list']);
         } else {
           this.flashMessage.show('Add Contact me Failed', {cssClass: 'alert-danger', timeOut: 3000});
-          this.router.navigate(['/contactme/contactme-list']);
+          // this.router.navigate(['/contactme/contactme-list']);
         }
       });
   }

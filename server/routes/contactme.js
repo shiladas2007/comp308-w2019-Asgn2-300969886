@@ -17,7 +17,7 @@ let contactmeController = require('../controllers/contactme');
 
 /* GET Contact List page - READ Operation */
 //router.get('/', passport.authenticate('jwt', {session: false}), contactmeController.displayContactmeList);
-router.get('/',  contactmeController.displayContactmeList);
+router.get('/', passport.authenticate('jwt', {session: false}),  contactmeController.displayContactmeList);
 
 
 /* POST Route for processing the Add page */
